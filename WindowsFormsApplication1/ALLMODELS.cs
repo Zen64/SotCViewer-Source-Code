@@ -54,41 +54,52 @@ namespace WindowsFormsApplication1
         }
         
         private void ALLMODELS_Load(object sender, EventArgs e)
-        {
-            
-            
+        {           
             viewin.Parent = pictureBox1;
             viewout.Parent = pictureBox1;
-           
-           
 
-            if (MyGlobal.disc_version == "pal")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\pal\PAL MODELS.txt"));
-                listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\pal\PAL ANIMATIONS.txt"));
+#if true
+            string discVerDir = Main.getDiscVerIxDir();
+                listBox1.Items.AddRange(File.ReadAllLines(Main.fileGetExistsPath(discVerDir + "MODELS.txt", @"resources\ALL MODELS.txt", null)));
+                listBox2.Items.AddRange(File.ReadAllLines(Main.fileGetExistsPath(discVerDir + "ANIMATIONS.txt", @"resources\ALL ANIMATIONS.txt", null)));
+#else
+                if (MyGlobal.disc_version == "gen")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\gen\GEN MODELS.txt"));
+                    listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\gen\GEN ANIMATIONS.txt"));
+                }
+                else if (MyGlobal.disc_version == "pal")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\pal\PAL MODELS.txt"));
+                    listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\pal\PAL ANIMATIONS.txt"));
+                }
+                else if (MyGlobal.disc_version == "ntsc")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\ntsc\NTSC MODELS.txt"));
+                    listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\ntsc\NTSC ANIMATIONS.txt"));
+                }
+                else if (MyGlobal.disc_version == "preview")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\preview\PREVIEW MODELS.txt"));
+                    listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\preview\PREVIEW ANIMATIONS.txt"));
+                }
+                else if (MyGlobal.disc_version == "psu")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\psu\PSU MODELS.txt"));
+                    listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\psu\PSU ANIMATIONS.txt"));
+                }
+                else if (MyGlobal.disc_version == "opm")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\opm\OPM MODELS.txt"));
+                    listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\opm\OPM ANIMATIONS.txt"));
+                }
+                else if (MyGlobal.disc_version == "ppr")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\ppr\PPR MODELS.txt"));
+                    listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\ppr\PPR ANIMATIONS.txt"));
+                }
+#endif
             }
-            else if (MyGlobal.disc_version == "ntsc")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\ntsc\NTSC MODELS.txt"));
-                listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\ntsc\NTSC ANIMATIONS.txt"));
-            }
-            else if (MyGlobal.disc_version == "preview")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\preview\PREVIEW MODELS.txt"));
-                listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\preview\PREVIEW ANIMATIONS.txt"));
-            }
-            else if (MyGlobal.disc_version == "psu")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\psu\PSU MODELS.txt"));
-                listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\psu\PSU ANIMATIONS.txt"));
-            }
-            else if (MyGlobal.disc_version == "opm")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\opm\OPM MODELS.txt"));
-                listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\opm\OPM ANIMATIONS.txt"));
-                
-            }
-        }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {

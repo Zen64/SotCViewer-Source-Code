@@ -51,7 +51,7 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.visualStyler1 = new SkinSoft.VisualStyler.VisualStyler(this.components);
+            this.autoLoadBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.creditsout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.miscout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wanderout)).BeginInit();
@@ -64,7 +64,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.fyle_system_group.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.visualStyler1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -85,7 +84,7 @@
             this.sotc_path.FormattingEnabled = true;
             this.sotc_path.Items.AddRange(new object[] {
             "Browse"});
-            this.sotc_path.Location = new System.Drawing.Point(358, 23);
+            this.sotc_path.Location = new System.Drawing.Point(362, 23);
             this.sotc_path.Name = "sotc_path";
             this.sotc_path.Size = new System.Drawing.Size(140, 21);
             this.sotc_path.TabIndex = 12;
@@ -97,7 +96,7 @@
             this.path_state.AutoSize = true;
             this.path_state.BackColor = System.Drawing.SystemColors.Control;
             this.path_state.ForeColor = System.Drawing.Color.DarkRed;
-            this.path_state.Location = new System.Drawing.Point(425, 47);
+            this.path_state.Location = new System.Drawing.Point(429, 47);
             this.path_state.Name = "path_state";
             this.path_state.Size = new System.Drawing.Size(73, 13);
             this.path_state.TabIndex = 13;
@@ -322,15 +321,24 @@
             // 
             // visualStyler1
             // 
-            this.visualStyler1.HostForm = this;
-            this.visualStyler1.License = ((SkinSoft.VisualStyler.Licensing.VisualStylerLicense)(resources.GetObject("visualStyler1.License")));
-            this.visualStyler1.LoadVisualStyle(null, "Windows Metro (White).vssf");
+            // 
+            // autoLoadBtn
+            // 
+            this.autoLoadBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.autoLoadBtn.Location = new System.Drawing.Point(428, 63);
+            this.autoLoadBtn.Name = "autoLoadBtn";
+            this.autoLoadBtn.Size = new System.Drawing.Size(74, 23);
+            this.autoLoadBtn.TabIndex = 22;
+            this.autoLoadBtn.Text = "&AutoLoad";
+            this.autoLoadBtn.UseVisualStyleBackColor = true;
+            this.autoLoadBtn.Click += new System.EventHandler(this.autoLoadBtn_Click);
             // 
             // Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(510, 262);
+            this.Controls.Add(this.autoLoadBtn);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.fyle_system_group);
@@ -368,7 +376,6 @@
             this.fyle_system_group.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.visualStyler1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -397,7 +404,7 @@
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private SkinSoft.VisualStyler.VisualStyler visualStyler1;
+        private System.Windows.Forms.Button autoLoadBtn;
     }
 }
 

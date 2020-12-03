@@ -1,0 +1,17 @@
+The index_<ver> files actually can't be used directly as they conatin the NICO.DAT path and once it has been changed, it has to also be changed somehow (unknown if possible at all - if offsets are important) in the index file.  - Using a zero-terminating string there does work fine, but the length of the string byte and the offset of the data after the string should not be changed. Changing it makes DorminViewer output an error.
+
+Actually, there is a second string with the NICO.DAT path in the 'index' file. It is printed when Dormin Viewer is given a filename that does not exist in the index:
+Fatal error: exception Sys_error("<path>: No such file or directory")
+This path is somewhere in the middle of the index file. But maybe this is because the index file got filled twice? Thugh the headers there are different.
+- Yes - the OCaml script actually adds the newest hash-tab (begining with nico.dat file path,name) at the start of the file, before its other contents. This results in the file containing its original data and the new data as well, and dormin searching in both hash-tables. Maybe this is how the PAL version works.
+Some of the other original index files also have such duplicate data here - namely index.ntsc.
+
+To prevent this doubling data confuse users, the 'index' file will be cleared to zero-length by SotC Viewer before calling the OCaml script to craete it.
+
+So what the program does is:
+- copy the two index files
+- run the script that generates nico.dat.index (Python) - it fails however when Python is missing and the copied file remains unchanged
+- run the OCaml script which generates index from nico.dat.index. It will however fail, if nico.dat.index contains offsets > 0x7FFFFFFF, so those have to be removed, which basically means that if Python is NOT missing, this step will fail.
+
+Then Dormin Viewer uses the OCaml (and the other?) index file(s). 
+ 

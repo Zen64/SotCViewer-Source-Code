@@ -36,19 +36,42 @@ namespace WindowsFormsApplication1
             viewout.Parent = pictureBox1;
             viewin.Parent = pictureBox1;
             label_colossus.Parent = pictureBox1;
-            if (MyGlobal.disc_version == ("opm"))
-            {
-                listBox1.Items.Clear();
-                listBox1.Items.Add("minotaur_A.nmo");
-            }
-             if (MyGlobal.disc_version == ("psu"))
-            {
-                listBox1.Items.Clear();
-                listBox1.Items.Add("minotaur_A.nmo");
-            }
-           
 
-        }
+#if true
+            string discVerDir = Main.getDiscVerIxDir();
+                string colossiListPathNm = discVerDir + "colossi.txt";
+                if (File.Exists(colossiListPathNm))
+                {
+                    listBox1.Items.Clear();
+                    using (StreamReader sr = File.OpenText(colossiListPathNm))
+                    {
+                        while (true)
+                        {
+                            string line = sr.ReadLine();
+                            if (line == null) break;
+                            string[] ent = line.Split(' ');
+                            string flNm = null;
+                            //MessageBox.Show(" line >" + line + "< >" + ent[0] + "< ent.len = " + ent.Length.ToString());
+                            if (ent.Length < 1) continue; //this should save from some problems here
+                            if (ent[0].Length > 0) flNm = ent[0];
+                            if (flNm != null) listBox1.Items.Add(flNm + ".nmo");
+                        }
+                    }
+                }
+#else
+                if (MyGlobal.disc_version == ("opm"))
+                {
+                    listBox1.Items.Clear();
+                    listBox1.Items.Add("minotaur_A.nmo");
+                }
+                if (MyGlobal.disc_version == ("psu"))
+                {
+                    listBox1.Items.Clear();
+                    listBox1.Items.Add("minotaur_A.nmo");
+                }
+#endif
+
+            }
         
         private void viewin_MouseEnter(object sender, EventArgs e)
         {
@@ -72,17 +95,48 @@ namespace WindowsFormsApplication1
                 listBox2.Items.Clear();
                 if (listBox1.SelectedItem.ToString() != "minotaur_B_hige.nmo")
                 {
+#if true
+                    string discVerDir = Main.getDiscVerIxDir();
                     try
                     {
-                        listBox2.Items.AddRange(File.ReadAllLines(@"resources\colossus_animations\" +
-                            listBox1.SelectedItem.ToString().Remove(listBox1.SelectedItem.ToString().Length - 3) + "txt"));
+                        listBox2.Items.AddRange(File.ReadAllLines(discVerDir +
+                        listBox1.SelectedItem.ToString().Remove(listBox1.SelectedItem.ToString().Length - 3) + "txt"));
                     }
                     catch
                     {
-                        listBox2.Items.Add(listBox1.SelectedItem.ToString().Remove(listBox1.SelectedItem.ToString().Length - 3)
-                            + "txt");
-                        listBox2.Items.Add("not found in resorces/colossus_anamations/ path");
+                        listBox2.Items.Add(listBox1.SelectedItem.ToString().Remove(listBox1.SelectedItem.ToString().Length - 3) + "txt");
+                        listBox2.Items.Add("not found in " + discVerDir + " path");
                     }
+#else
+                        if (MyGlobal.disc_version == "gen")
+                        {
+                            try
+                            {
+                                listBox2.Items.AddRange(File.ReadAllLines(@"resources\version_index\gen\" +
+                                    listBox1.SelectedItem.ToString().Remove(listBox1.SelectedItem.ToString().Length - 3) + "txt"));
+                            }
+                            catch
+                            {
+                                listBox2.Items.Add(listBox1.SelectedItem.ToString().Remove(listBox1.SelectedItem.ToString().Length - 3)
+                                    + "txt");
+                                listBox2.Items.Add("not found in resorces/version_index/gen/ path");
+                            }
+                        }
+                        else
+                        {
+                            try
+                            {
+                                listBox2.Items.AddRange(File.ReadAllLines(@"resources\colossus_animations\" +
+                                    listBox1.SelectedItem.ToString().Remove(listBox1.SelectedItem.ToString().Length - 3) + "txt"));
+                            }
+                            catch
+                            {
+                                listBox2.Items.Add(listBox1.SelectedItem.ToString().Remove(listBox1.SelectedItem.ToString().Length - 3)
+                                    + "txt");
+                                listBox2.Items.Add("not found in resorces/colossus_anamations/ path");
+                            }
+                        }
+#endif
                 }
                 else
                 {

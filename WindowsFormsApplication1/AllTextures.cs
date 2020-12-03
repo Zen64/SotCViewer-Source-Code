@@ -33,30 +33,41 @@ namespace WindowsFormsApplication1
             
             viewin.Parent = pictureBox1;
             viewout.Parent = pictureBox1;
-            if (MyGlobal.disc_version == "pal")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\pal\PAL TEXTURES.txt"));
-            }
-            else if (MyGlobal.disc_version == "ntsc")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\ntsc\NTSC TEXTURES.txt"));
-            }
-            else if (MyGlobal.disc_version == "preview")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\preview\PREVIEW TEXTURES.txt"));
-            }
-            else if (MyGlobal.disc_version == "psu")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\psu\PSU TEXTURES.txt"));
-            }
-            else if (MyGlobal.disc_version == "opm")
-            {
-                listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\opm\OPM TEXTURES.txt"));
 
-            }           
-            
-                       
-           
+#if true
+            string discVerDir = Main.getDiscVerIxDir();
+            listBox1.Items.AddRange(File.ReadAllLines(Main.fileGetExistsPath(discVerDir + "TEXTURES.txt", @"resources\ALL TEXTURES.txt", null)));
+#else
+
+            if (MyGlobal.disc_version == "gen")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\gen\GEN TEXTURES.txt"));
+                }
+                else if (MyGlobal.disc_version == "pal")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\pal\PAL TEXTURES.txt"));
+                }
+                else if (MyGlobal.disc_version == "ntsc")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\ntsc\NTSC TEXTURES.txt"));
+                }
+                else if (MyGlobal.disc_version == "preview")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\preview\PREVIEW TEXTURES.txt"));
+                }
+                else if (MyGlobal.disc_version == "psu")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\psu\PSU TEXTURES.txt"));
+                }
+                else if (MyGlobal.disc_version == "opm")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\opm\OPM TEXTURES.txt"));
+                }
+                else if (MyGlobal.disc_version == "ppr")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\ppr\PPR TEXTURES.txt"));
+                }
+#endif
         }
 
 

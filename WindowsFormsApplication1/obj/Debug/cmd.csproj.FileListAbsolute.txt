@@ -1,0 +1,21 @@
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\bin\Debug\SotC Viewer.exe.config
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\bin\Debug\SotC Viewer.exe.manifest
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\bin\Debug\SotC Viewer.application
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\bin\Debug\SotC Viewer.exe
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\bin\Debug\SotC Viewer.pdb
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\bin\Debug\SkinSoft.VisualStyler.dll
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\bin\Debug\SkinSoft.VisualStyler.xml
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Advanced.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ALLMODELS.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ALLSKB.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ALLSKBS.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ColossusForm.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Main.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Misc.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\cmd.csproj.GenerateResource.Cache
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\SotC Viewer.exe.manifest
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\SotC Viewer.application
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\SotC Viewer.exe
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\SotC Viewer.pdb
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Debug\cmd.csprojResolveAssemblyReference.cache

@@ -227,9 +227,22 @@ namespace WindowsFormsApplication1
         private void Misc_Load(object sender, EventArgs e)
         {
             listBox1.Items.AddRange(File.ReadAllLines(list_path));
-            comboBox2.AutoCompleteCustomSource.AddRange(File.ReadAllLines(@"resources\ALL ANIMATIONS.txt"));
-            
-            groupBox2.Parent = pictureBox1;
+
+#if true
+            string discVerDir = Main.getDiscVerIxDir();
+            comboBox2.AutoCompleteCustomSource.AddRange(File.ReadAllLines(Main.fileGetExistsPath(discVerDir + "ANIMATIONS.txt", @"resources\ALL ANIMATIONS.txt", null)));
+#else
+                if (MyGlobal.disc_version == "gen")
+                {
+                    comboBox2.AutoCompleteCustomSource.AddRange(File.ReadAllLines(@"resources\version_index\gen\GEN ANIMATIONS.txt"));
+                }
+                else
+                {
+                    comboBox2.AutoCompleteCustomSource.AddRange(File.ReadAllLines(@"resources\ALL ANIMATIONS.txt"));
+                }
+#endif
+
+                groupBox2.Parent = pictureBox1;
             button1.Parent = pictureBox1;
             viewin.Parent = pictureBox1;
 

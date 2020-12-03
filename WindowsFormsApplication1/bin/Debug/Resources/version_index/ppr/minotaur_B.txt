@@ -1,0 +1,7 @@
+minotaur_B_atk_leg_strong.anb
+minotaur_B_boot_cancel.anb
+minotaur_B_boot_forMinoB.anb
+minotaur_B_death.anb
+minotaur_B_death_loop.anb
+minotaur_B_walk_atk1.anb
+minotaur_B_walk_atk2.anb

@@ -19,8 +19,23 @@ namespace WindowsFormsApplication1
 
         private void ALLSKB_Load(object sender, EventArgs e)
         {
-            listBox1.Items.AddRange(File.ReadAllLines(@"resources\ALL SKBs.txt"));
-            comboBox1.AutoCompleteCustomSource.AddRange(File.ReadAllLines(@"resources\ALL SKBs.txt"));
+
+#if true
+            string discVerDir = Main.getDiscVerIxDir();
+            listBox1.Items.AddRange(File.ReadAllLines(discVerDir + "SKBs.txt"));
+            comboBox1.AutoCompleteCustomSource.AddRange(File.ReadAllLines(Main.fileGetExistsPath(discVerDir + "SKBs.txt", @"resources\ALL SKBs.txt", null)));
+#else
+            if (MyGlobal.disc_version == "gen")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\version_index\gen\GEN SKBs.txt"));
+                    comboBox1.AutoCompleteCustomSource.AddRange(File.ReadAllLines(@"resources\version_index\gen\GEN SKBs.txt"));
+                }
+                else
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines(@"resources\ALL SKBs.txt"));
+                    comboBox1.AutoCompleteCustomSource.AddRange(File.ReadAllLines(@"resources\ALL SKBs.txt"));
+                }
+#endif
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

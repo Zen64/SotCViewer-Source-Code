@@ -1,0 +1,1 @@
+dormin -mipmaps -multitex arrow_breakb.nmo -connect Bone_KAO nmo/arrow_sticked.nmo -connect Bone_KAO nmo/bird_B_wing_blur.nmo -connect Bone_KAO nmo/bird_statue.nmo -connect Bone_KAO nmo/boss_cloud_cl.nmo -connect Bone_KAO nmo/bow_grip.nmo -connect Bone_KAO nmo/bow_gum.nmo -connect Bone_KAO nmo/bow_line.nmo

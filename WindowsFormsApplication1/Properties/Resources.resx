@@ -157,4 +157,10 @@
   <data name="xac" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xac.index;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="index_ppr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\index_ppr;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nico_dat_ppr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nico.dat.index_ppr;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

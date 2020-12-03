@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Shadow-Of-The-Colossus.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="SotC Viewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="SotC Viewer" version="1.0.7641.42962" language="neutral" processorArchitecture="msil" />
     <commandLine file="SotC Viewer.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -16,14 +16,14 @@
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
           UAC Manifest Options
-          If you want to change the Windows User Account Control level replace the 
+          If you want to change the Windows User Account Control level replace the
           requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         If you want to utilize File and Registry Virtualization for backward 
+         If you want to utilize File and Registry Virtualization for backward
          compatibility then delete the requestedExecutionLevel node.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
@@ -43,22 +43,80 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="SkinSoft.VisualStyler" version="2.4.0.0" publicKeyToken="0FDA9F423E1D9830" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SotC Viewer.exe" size="10847744">
-      <assemblyIdentity name="SotC Viewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SotC Viewer.exe" size="13853184">
+      <assemblyIdentity name="SotC Viewer" version="1.0.7641.42962" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>TKJ6REtEqtDMjTIIYUd4GLz7FsA=</dsig:DigestValue>
+        <dsig:DigestValue>M/fAW2mb8O/CTVA00JGINPLvKVs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="Resources\ALL ANIMATIONS.txt" size="78152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>12lmAhOn+zX69a+Hu8VJ7b68P3k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\ALL MODELS.txt" size="155392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0GLTGguMvfSMsIfIUKpLEXENx6o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\ALL SKBs.txt" size="673">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oFy3iY99ipLzT9pNt8T3qbtdJEA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\ALL TEXTURES.txt" size="31892">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>m4LgxZbcChX6vqoASSMITq58DCo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\OPM MODELS.txt" size="20132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>til/Di8SRFmwDbBlPr6tIabTQro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PSU MODELS.txt" size="20327">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ASbFQulsdj7n9g0Yiptw+ql6pYc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\RELEVANT STUFF.txt" size="3034">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>R71q9Pb/1Rqjo3BRDjAM89zdHIo=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="Shadow-Of-The-Colossus.ico" size="370070">
     <hash>
       <dsig:Transforms>
@@ -68,13 +126,13 @@
       <dsig:DigestValue>G6aUw5nk1qbKm176D8bNjA4C57w=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SotC Viewer.exe.config" size="157">
+  <file name="SotC Viewer.exe.config" size="151">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>60+p9NXC1fxypc5g3dMH4EOGocU=</dsig:DigestValue>
+      <dsig:DigestValue>5fS+FEImI9l9OmR/143MPyjF6wY=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

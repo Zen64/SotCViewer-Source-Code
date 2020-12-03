@@ -55,3 +55,63 @@ C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\o
 C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\cmd.csproj.GenerateResource.Cache
 C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\SotC Viewer.exe.manifest
 C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\SotC Viewer.application
+F:\sotcDatFlDev\SotC_Viewer_src\01\dormin\SotC Viewer.exe.config
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\SotC Viewer.exe
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\SotC Viewer.pdb
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Advanced.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLMODELS.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKB.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKBS.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ColossusForm.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Misc.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\cmd.csproj.GenerateResource.Cache
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Main.resources
+F:\sotcDatFlDev\SotC_Viewer_src\01\dormin\SotC Viewer.exe.manifest
+F:\sotcDatFlDev\SotC_Viewer_src\01\dormin\SotC Viewer.application
+F:\sotcDatFlDev\SotC_Viewer_src\01\dormin\SotC Viewer.exe
+F:\sotcDatFlDev\SotC_Viewer_src\01\dormin\SotC Viewer.pdb
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\SotC Viewer.exe.manifest
+F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\SotC Viewer.application
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\cmd.csprojAssemblyReference.cache
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Advanced.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLMODELS.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKB.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKBS.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ColossusForm.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Misc.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\cmd.csproj.GenerateResource.cache
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.exe
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.pdb
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Main.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\cmd.csproj.CoreCompileInputs.cache
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.exe.config
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.exe.manifest
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.application
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.exe
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.pdb
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.exe.manifest
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.application
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\index_ppr
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_ppr
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\xab.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\xac.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\index_ntsc
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\index_opm
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\index_pal
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\index_preview
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\index_psu
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_ntsc
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_opm
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_pal
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_preview
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_psu
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\resource2.png
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\RELEVANT STUFF.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL ANIMATIONS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL SKBs.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL TEXTURES.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\OPM MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\PSU MODELS.txt

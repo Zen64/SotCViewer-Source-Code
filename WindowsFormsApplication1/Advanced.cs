@@ -62,26 +62,74 @@ namespace WindowsFormsApplication1
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
-            listBox1.Items.AddRange(File.ReadAllLines("resources/ALL MODELS.txt"));
-        }
+#if true
+            string discVerDir = Main.getDiscVerIxDir();
+            listBox1.Items.AddRange(File.ReadAllLines(Main.fileGetExistsPath(discVerDir + "MODELS.txt", @"resources\ALL MODELS.txt", null)));
+#else
+                if (MyGlobal.disc_version == "gen")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines("resources/version_index/gen/GEN MODELS.txt"));
+                }
+                else
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines("resources/ALL MODELS.txt"));
+                }
+#endif
+            }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
-            listBox1.Items.AddRange(File.ReadAllLines("resources/ALL ANIMATIONS.txt"));
-        }
+#if true
+            string discVerDir = Main.getDiscVerIxDir();
+            listBox1.Items.AddRange(File.ReadAllLines(Main.fileGetExistsPath(discVerDir + "ANIMATIONS.txt", @"resources\ALL ANIMATIONS.txt", null)));
+#else
+                if (MyGlobal.disc_version == "gen")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines("resources/version_index/gen/GEN ANIMATIONS.txt"));
+                }
+                else
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines("resources/ALL ANIMATIONS.txt"));
+                }
+#endif
+            }
 
         private void radioButton5_CheckedChanged(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
-            listBox1.Items.AddRange(File.ReadAllLines("resources/ALL TEXTURES.txt"));
-        }
+#if true
+            string discVerDir = Main.getDiscVerIxDir();
+            listBox1.Items.AddRange(File.ReadAllLines(Main.fileGetExistsPath(discVerDir + "TEXTURES.txt", @"resources\ALL TEXTURES.txt", null)));
+#else
+                if (MyGlobal.disc_version == "gen")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines("resources/version_index/gen/GEN TEXTURES.txt"));
+                }
+                else
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines("resources/ALL TEXTURES.txt"));
+                }
+#endif
+            }
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
-            listBox1.Items.AddRange(File.ReadAllLines("resources/ALL SKBs.txt"));
-        }
+#if true
+            string discVerDir = Main.getDiscVerIxDir();
+            listBox1.Items.AddRange(File.ReadAllLines(Main.fileGetExistsPath(discVerDir + "SKBs.txt", @"resources\ALL SKBs.txt", null)));
+#else
+                if (MyGlobal.disc_version == "gen")
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines("resources/version_index/gen/GEN SKBs.txt"));
+                }
+                else
+                {
+                    listBox1.Items.AddRange(File.ReadAllLines("resources/ALL SKBs.txt"));
+                }
+#endif
+            }
 
         private void listBox1_DoubleClick(object sender, EventArgs e)
         {
