@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using System.IO;
 using System.Diagnostics;
+using System.IO;
+using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace SharpColossus
 {
     public partial class Advanced : Form
     {
@@ -40,13 +35,6 @@ namespace WindowsFormsApplication1
         {
             radioButton1.Checked = true;
             radioButton3.Checked = true;
-           
-            groupBox5.Parent = pictureBox1;
-            groupBox2.Parent = pictureBox1;
-            groupBox3.Parent = pictureBox1;
-            groupBox4.Parent = pictureBox1;
-            
-           
         }
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {

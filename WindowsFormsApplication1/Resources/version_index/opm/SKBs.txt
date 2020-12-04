@@ -1,0 +1,17 @@
+boss_cloud_cl.skb
+gex_A.skb
+gextail_A.skb
+girl_A.skb
+girl_A_hair.skb
+girl_A_head.skb
+girl_B.skb
+horse_A.skb
+minotaur_A.skb
+mono_cloth.skb
+namazu_A.skb
+obj_Tortoise_A.skb
+obj_bird_A.skb
+op1_leaf.skb
+player_A.skb
+player_A_head.skb
+smoleman_A.skb

@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
-using System.IO;
 using System.Diagnostics;
-using System.Reflection;
+using System.Drawing;
+using System.IO;
+using System.Windows.Forms;
 
 
 
-namespace WindowsFormsApplication1
+namespace SharpColossus
 {
     public partial class Misc : Form
     {
@@ -202,18 +201,6 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void viewin_MouseEnter(object sender, EventArgs e)
-        {
-            viewin.Visible = false;
-            button1.Visible = true;
-        }
-
-        private void button1_MouseLeave(object sender, EventArgs e)
-        {
-            button1.Visible = false;
-            viewin.Visible = true;
-        }
-
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.Escape)
@@ -241,10 +228,6 @@ namespace WindowsFormsApplication1
                     comboBox2.AutoCompleteCustomSource.AddRange(File.ReadAllLines(@"resources\ALL ANIMATIONS.txt"));
                 }
 #endif
-
-                groupBox2.Parent = pictureBox1;
-            button1.Parent = pictureBox1;
-            viewin.Parent = pictureBox1;
 
 
         }

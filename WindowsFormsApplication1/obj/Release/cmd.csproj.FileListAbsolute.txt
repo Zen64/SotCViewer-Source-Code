@@ -73,26 +73,35 @@ F:\sotcDatFlDev\SotC_Viewer_src\01\dormin\SotC Viewer.exe
 F:\sotcDatFlDev\SotC_Viewer_src\01\dormin\SotC Viewer.pdb
 F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\SotC Viewer.exe.manifest
 F:\sotcDatFlDev\SotC_Viewer_src\01\SotCViewer-Source-Code-master\WindowsFormsApplication1\obj\Release\SotC Viewer.application
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\cmd.csprojAssemblyReference.cache
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Advanced.resources
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLMODELS.resources
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKB.resources
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKBS.resources
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ColossusForm.resources
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Misc.resources
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\cmd.csproj.GenerateResource.cache
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.exe
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.pdb
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Main.resources
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\cmd.csproj.CoreCompileInputs.cache
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.exe.config
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.exe.manifest
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.application
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.exe
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.pdb
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.exe.manifest
-C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.application
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\dormin.exe
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\glut32.dll
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\gameVers.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\easy_install.py
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\index-win.py
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\index.py
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\ocaml.exe
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\ocamlrun.exe
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\pkg_resources.py
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\site.py
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL ANIMATIONS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL SKBs.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL TEXTURES.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\OPM MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\PSU MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\RELEVANT STUFF.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\array.cmi
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\filename.cmi
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\hashtbl.cmi
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\index.ml
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\index.sh
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\index_ntsc.bat
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\index_pal.bat
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\pervasives.cmi
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\scanf.cmi
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\site.pyc
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\index\sys.cmi
 C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\index_ppr
 C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_ppr
 C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\xab.index
@@ -107,11 +116,150 @@ C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_opm
 C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_pal
 C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_preview
 C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\nico.dat.index_psu
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\resource2.png
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\RELEVANT STUFF.txt
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL ANIMATIONS.txt
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL MODELS.txt
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL SKBs.txt
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\ALL TEXTURES.txt
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\OPM MODELS.txt
-C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\PSU MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.exe.config
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.exe.manifest
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.application
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.exe
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\SotC Viewer.pdb
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\cmd.csproj.GenerateResource.cache
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\cmd.csproj.CoreCompileInputs.cache
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.exe.manifest
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.application
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.exe
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SotC Viewer.pdb
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\ANIMATIONS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\bird_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\boss_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\buddha_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\cerberus_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\colossi.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\eel_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\kame_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\kirin_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\knight_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\leo_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\minotaur_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\minotaur_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\minotaur_C.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\narga_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\narga_A_head.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\poseidon_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\sirius_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\SKBs.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\snake_C.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\TEXTURES.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\yamori_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\opm\ANIMATIONS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\opm\colossi.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\opm\minotaur_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\opm\MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\opm\SKBs.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\opm\TEXTURES.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\paldemo\ANIMATIONS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\paldemo\colossi.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\paldemo\minotaur_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\paldemo\MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\paldemo\SKBs.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\paldemo\TEXTURES.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\ANIMATIONS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\bird_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\boss_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\buddha_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\cerberus_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\colossi.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\eel_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\kame_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\kirin_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\knight_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\leo_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\minotaur_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\minotaur_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\minotaur_C.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\narga_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\poseidon_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\sirius_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\SKBs.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\snake_C.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\TEXTURES.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\yamori_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\ANIMATIONS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\bird_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\boss_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\buddha_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\cerberus_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\colossi.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\eel_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\kame_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\kirin_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\knight_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\leo_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\minotaur_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\minotaur_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\minotaur_C.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\narga_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\narga_A_head.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\poseidon_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\sirius_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\SKBs.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\snake_C.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\TEXTURES.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\yamori_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\ANIMATIONS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\bird_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\boss_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\buddha_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\cerberus_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\colossi.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\eel_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\kame_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\kirin_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\knight_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\leo_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\minotaur_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\minotaur_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\minotaur_C.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\narga_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\narga_A_head.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\poseidon_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\sirius_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\SKBs.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\snake_C.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\TEXTURES.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\yamori_B.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\psu\ANIMATIONS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\psu\colossi.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\psu\minotaur_A.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\psu\MODELS.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\psu\SKBs.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\psu\TEXTURES.txt
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ntsc\nico.dat.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\opm\index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\opm\nico.dat.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\paldemo\index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\paldemo\nico.dat.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\nico.dat.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\xab.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\pal\xac.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\ppr\nico.dat.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\index_orig
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\nico.dat.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\preview\nico.dat.index_orig
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\psu\index
+C:\Users\xXzen\OneDrive\Desktop\SotC\dormin\Resources\version_index\psu\nico.dat.index
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\cmd.csprojAssemblyReference.cache
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SharpColossus.Advanced.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SharpColossus.ALLMODELS.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SharpColossus.ALLSKBS.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SharpColossus.ColossusForm.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SharpColossus.Main.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SharpColossus.Properties.Resources.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SharpColossus.ALLSKB.resources
+C:\Users\xXzen\OneDrive\Desktop\SotC\SotCViewer-Source-Code\WindowsFormsApplication1\obj\Release\SharpColossus.Misc.resources

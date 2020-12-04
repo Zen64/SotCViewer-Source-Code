@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cmd", "WindowsFormsApplication1\cmd.csproj", "{E640F70F-10F9-4F95-AD6F-2E1A8CC0D195}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpColossus", "WindowsFormsApplication1\SharpColossus.csproj", "{E640F70F-10F9-4F95-AD6F-2E1A8CC0D195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,13 +20,14 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VSStyle = Windows Metro (White).vssf
-		VSTargetControls = FormsAndControls
-		VSToolStripStyle = Mixed
-		VSTextShadow = True
-		VSSkinFlatStyles = True
-		VSSkinToggleButtons = True
-		VSUseSystemFonts = False
 		VSCustomBkgrdPaint = True
+		VSUseSystemFonts = False
+		VSSkinToggleButtons = True
+		VSSkinFlatStyles = True
+		VSTextShadow = True
+		VSToolStripStyle = Mixed
+		VSTargetControls = FormsAndControls
+		VSStyle = Windows Metro (White).vssf
+		SolutionGuid = {8AF84869-AAB6-427D-85BE-F54F80260043}
 	EndGlobalSection
 EndGlobal

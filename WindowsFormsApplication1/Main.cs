@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
-using System.Windows.Forms;
 using System.IO;
-
 using System.Reflection;
-using System.Security.Permissions;
+using System.Windows.Forms;
 
 
-namespace WindowsFormsApplication1
+namespace SharpColossus
 {
 
     public partial class Main : Form
@@ -417,17 +415,6 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            nomad_link.Links[0].LinkData = "http://nomads-sotc-blog.blogspot.com.au/2011/04/welcome-to-nomads-shadow-of-colossus.html";
-            
-            linkLabel1.Links[0].LinkData = "http://blackbirdsotc.blogspot.com.br/";
-        
-            linkLabel2.Links[0].LinkData = "http://www.youtube.com/user/wwwarea";
-            
-            fyle_system_group.Parent = pictureBox1;
-
-            groupBox1.Parent = pictureBox1;
-
-
             try
             {
 
@@ -886,53 +873,10 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void colossusin_MouseEnter(object sender, EventArgs e)
-        {
-            colossusout.Visible = true;
-            
-        }
-
-        private void wanderin_MouseEnter(object sender, EventArgs e)
-        {
-            wanderout.Visible = true;
-        }
-
-        private void miscin_MouseEnter(object sender, EventArgs e)
-        {
-            miscout.Visible = true;
-        }
-
-        private void creditsin_MouseEnter(object sender, EventArgs e)
-        {
-            creditsout.Visible = true;
-        }
-
-        private void colossusout_MouseLeave(object sender, EventArgs e)
-        {
-            colossusout.Visible = false;
-        }
-
-        private void wanderout_MouseLeave(object sender, EventArgs e)
-        {
-            wanderout.Visible = false;
-        }
-
-        private void miscout_MouseLeave(object sender, EventArgs e)
-        {
-            miscout.Visible = false;
-        }
-
-        private void creditsout_MouseLeave(object sender, EventArgs e)
-        {
-            creditsout.Visible = false;
-        }
-
         private void colossusout_Click(object sender, EventArgs e)
         {
             ColossusForm CF = new ColossusForm();
             CF.Visible = true;
-         
-            
         }
 
         private void creditsout_Click(object sender, EventArgs e)
@@ -940,8 +884,6 @@ namespace WindowsFormsApplication1
             Assembly assem = Assembly.GetExecutingAssembly();
             Version vers = assem.GetName().Version;
             DateTime buildDate = new DateTime(2000, 1, 1).AddDays(vers.Build).AddSeconds(vers.Revision * 2);
-            //Console.WriteLine(vers.ToString());
-            //Console.WriteLine(buildDate.ToString());
             string rev = "Rev.= " + vers.ToString() + " build date " + buildDate.ToString();
 
             MessageBox.Show("Thanks a lot to NOMAD, this GUI wouldn't be done without his help"
@@ -950,7 +892,12 @@ namespace WindowsFormsApplication1
                         + "\nThanks HEXDREL to his support"
                         + "\nWWWArea for his beta tester support"
                         + "\nWisi - some modifications and multi-version support"
-                        + "\nZen - Dec-2020 updates"
+                        + "\nZen - December 2020 updates"
+                        + "\n"
+                        + "\nNomad's Blog: http://nomads-sotc-blog.blogspot.com.au/2011/04/welcome-to-nomads-shadow-of-colossus.html"
+                        + "\n\nBlack Bird Blog: http://blackbirdsotc.blogspot.com.br/"
+                        + "\n\nWWWArea's YouTube channel: http://www.youtube.com/user/wwwarea"
+                        + "\n"
                         + "\n " + rev, "Credits");
         }
 
@@ -1213,7 +1160,7 @@ namespace WindowsFormsApplication1
             CF.Visible = true;
         }
 
-        private void wanderout_Click(object sender, EventArgs e)
+        private void advancedout_Click(object sender, EventArgs e)
         {
             Advanced CF = new Advanced();
             CF.Visible = true;
@@ -1239,7 +1186,10 @@ namespace WindowsFormsApplication1
             ALLMODELS h = new ALLMODELS();
             h.Close();
         }
-        
-        
+
+        private void creditsin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Threading;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace SharpColossus
 {
-    
+
     static class Program
     {
        
@@ -19,9 +17,6 @@ namespace WindowsFormsApplication1
             Application.SetCompatibleTextRenderingDefault(false);
             
                 Application.Run(new Main());
-            
-
-            
         }
             
         }

@@ -4,10 +4,8 @@ using System.Diagnostics;
 using System.IO;
 using System.Drawing;
 
-namespace WindowsFormsApplication1
+namespace SharpColossus
 {
-    
-    
     public partial class ColossusForm : Form
     {
         string models;
@@ -32,10 +30,6 @@ namespace WindowsFormsApplication1
         
         private void ColossusForm_Load(object sender, EventArgs e)
         {
-           
-            viewout.Parent = pictureBox1;
-            viewin.Parent = pictureBox1;
-            label_colossus.Parent = pictureBox1;
 
 #if true
             string discVerDir = Main.getDiscVerIxDir();
@@ -147,8 +141,6 @@ namespace WindowsFormsApplication1
             
         }
                
-            
-        
     
         private void viewout_Click(object sender, EventArgs e)
         {
@@ -170,29 +162,14 @@ namespace WindowsFormsApplication1
                     var imgvinfo = new ProcessStartInfo("cmd");
 
                     Process.Start("dormin", "-mipmaps -multitex " + models + " " + animations);
-                    
-                
-                }
-                
-               
-                            
+                }               
             }
             catch
             {
-                MessageBox.Show("dormin.exe não encontrado");
-            }
-        
-
-        
-   
-            
+                MessageBox.Show("dormin.exe not found");
+            }     
         }
 
-        
-
-     
-
-       
 
         private void select_animation_CheckedChanged(object sender, EventArgs e)
         {
@@ -412,20 +389,11 @@ namespace WindowsFormsApplication1
                 collectedText += dd + "\r\n";
             }
             Clipboard.SetText(collectedText);
-            
-            
-            
         }
 
         private void select_colossus_CheckedChanged(object sender, EventArgs e)
         {
 
         }
-
-    
-
-       
-
-        
     }
 }

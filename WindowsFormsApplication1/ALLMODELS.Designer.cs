@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace SharpColossus
 {
     partial class ALLMODELS
     {
@@ -36,19 +36,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label_colossus = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.viewout = new System.Windows.Forms.PictureBox();
-            this.viewin = new System.Windows.Forms.PictureBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.viewout)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.viewin)).BeginInit();
+            this.viewout = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -138,26 +131,6 @@
             this.label_colossus.TabIndex = 43;
             this.label_colossus.Text = "ALL MODELS";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(181, 71);
-            this.pictureBox5.TabIndex = 42;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::WindowsFormsApplication1.Properties.Resources.resource2;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(562, 262);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 41;
-            this.pictureBox1.TabStop = false;
-            // 
             // comboBox1
             // 
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -170,32 +143,6 @@
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             this.comboBox1.TextUpdate += new System.EventHandler(this.comboBox1_TextUpdate_1);
             this.comboBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.comboBox1_KeyDown_1);
-            // 
-            // viewout
-            // 
-            this.viewout.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.viewout.BackColor = System.Drawing.Color.Transparent;
-            this.viewout.Image = ((System.Drawing.Image)(resources.GetObject("viewout.Image")));
-            this.viewout.Location = new System.Drawing.Point(411, 28);
-            this.viewout.Name = "viewout";
-            this.viewout.Size = new System.Drawing.Size(139, 28);
-            this.viewout.TabIndex = 52;
-            this.viewout.TabStop = false;
-            this.viewout.Visible = false;
-            this.viewout.Click += new System.EventHandler(this.viewout_Click);
-            this.viewout.MouseLeave += new System.EventHandler(this.viewout_MouseLeave);
-            // 
-            // viewin
-            // 
-            this.viewin.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.viewin.BackColor = System.Drawing.Color.Transparent;
-            this.viewin.Image = ((System.Drawing.Image)(resources.GetObject("viewin.Image")));
-            this.viewin.Location = new System.Drawing.Point(411, 28);
-            this.viewin.Name = "viewin";
-            this.viewin.Size = new System.Drawing.Size(139, 28);
-            this.viewin.TabIndex = 51;
-            this.viewin.TabStop = false;
-            this.viewin.MouseEnter += new System.EventHandler(this.viewin_MouseEnter);
             // 
             // contextMenuStrip1
             // 
@@ -227,13 +174,22 @@
             this.toolStripMenuItem1.Text = "Copy to Clipboard";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
+            // viewout
+            // 
+            this.viewout.Location = new System.Drawing.Point(475, 12);
+            this.viewout.Name = "viewout";
+            this.viewout.Size = new System.Drawing.Size(75, 23);
+            this.viewout.TabIndex = 53;
+            this.viewout.Text = "View";
+            this.viewout.UseVisualStyleBackColor = true;
+            this.viewout.Click += new System.EventHandler(this.viewout_Click);
+            // 
             // ALLMODELS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(562, 262);
             this.Controls.Add(this.viewout);
-            this.Controls.Add(this.viewin);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.select_animation);
             this.Controls.Add(this.select_model);
@@ -241,17 +197,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label_colossus);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ALLMODELS";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ALL MODELS";
             this.Load += new System.EventHandler(this.ALLMODELS_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.viewout)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.viewin)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
             this.contextMenuStrip2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -267,15 +217,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label_colossus;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.PictureBox viewout;
-        private System.Windows.Forms.PictureBox viewin;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-
+        private System.Windows.Forms.Button viewout;
     }
 }

@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using System.IO;
-using System.Threading;
 using System.Diagnostics;
+using System.Drawing;
+using System.IO;
+using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace SharpColossus
 {
     public partial class ALLMODELS : Form
     {
@@ -55,8 +50,6 @@ namespace WindowsFormsApplication1
         
         private void ALLMODELS_Load(object sender, EventArgs e)
         {           
-            viewin.Parent = pictureBox1;
-            viewout.Parent = pictureBox1;
 
 #if true
             string discVerDir = Main.getDiscVerIxDir();
@@ -118,18 +111,6 @@ namespace WindowsFormsApplication1
             {
 
             }
-        }
-
-        private void viewout_MouseLeave(object sender, EventArgs e)
-        {
-            viewout.Visible = false;
-            viewin.Visible = true;
-        }
-
-        private void viewin_MouseEnter(object sender, EventArgs e)
-        {
-            viewin.Visible = false;
-            viewout.Visible = true;
         }
 
         private void viewout_Click(object sender, EventArgs e)

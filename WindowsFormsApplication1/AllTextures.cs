@@ -1,17 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using System.IO;
 using System.Diagnostics;
+using System.Drawing;
+using System.IO;
 using System.Threading;
-using System.Windows;
+using System.Windows.Forms;
 
 
-namespace WindowsFormsApplication1
+namespace SharpColossus
 {
     public partial class ALLSKBS : Form
     {
@@ -30,9 +25,6 @@ namespace WindowsFormsApplication1
 
         private void AllTextures_Load(object sender, EventArgs e)
         {
-            
-            viewin.Parent = pictureBox1;
-            viewout.Parent = pictureBox1;
 
 #if true
             string discVerDir = Main.getDiscVerIxDir();
@@ -81,22 +73,6 @@ namespace WindowsFormsApplication1
             }
             return (processes.Length != 0);
         }
-
-        private void viewout_MouseLeave(object sender, EventArgs e)
-        {
-            viewout.Visible = false;
-            viewin.Visible = true;
-        }
-
-        private void viewin_MouseEnter(object sender, EventArgs e)
-        {
-            viewin.Visible = false;
-            viewout.Visible = true;
-            
-        }
-      
-       
-        
 
         private void viewout_Click(object sender, EventArgs e)
         {
@@ -410,9 +386,5 @@ namespace WindowsFormsApplication1
                     contextMenuStrip1.Show(this, new Point(e.X, e.Y + 60));
             }
         }
-
-       
-
-
     }
 }
